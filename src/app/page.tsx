@@ -3,7 +3,8 @@ import ButtonComponent from "@/components/buttonComponent";
 
 export default function Home() {
   return (
-    <div className="grid place-content-center h-screen ">
+      <>
+          <div className="grid place-content-center h-screen ">
       {/* counter buuton */}
       <ButtonStateComponent />
       {/* button 1 */}
@@ -19,5 +20,6 @@ export default function Home() {
       </h1>
       <p>Enjoyable to work with it.</p>
     </div>
+      </>
   );
 }
