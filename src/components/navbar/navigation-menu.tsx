@@ -22,8 +22,8 @@ const menuObject: NavigationMenuType[] = [
     name: "Team",
   },
   {
-    path: "/product",
-    name: "Product",
+    path: "/products",
+    name: "Products",
   },
 ];
 export default function NavigationMenu() {
